@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Had Laundry </title>
+    
+    <!-- Sytle Link -->
+    <link rel="stylesheet" href="../static/css/style.css" />
+
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Scrollbar Settings -->
+    <style>
+        html::-webkit-scrollbar {
+            width: 1vw;
+        }
+
+        html::-webkit-scrollbar-thumb {
+            background: rgb(37, 37, 37);
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <!-- Navigation -->
+
+    <header>
+        <a href="#" class="logo" data-aos="fade-down">  Web Laundry </a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="nav">
+            <li data-aos="fade-down" data-aos-delay="50"><a href="#home" onclick="toggleMenu();"> Home </a></li>
+            <li data-aos="fade-down" data-aos-delay="100"><a href="#about" onclick="toggleMenu();"> About </a></li>
+            <li data-aos="fade-down" data-aos-delay="150"><a href="#system" onclick="toggleMenu();"> System </a></li>
+            <li data-aos="fade-down" data-aos-delay="200"><a href="#service" onclick="toggleMenu();"> Service </a></li>
+            <li data-aos="fade-down" data-aos-delay="250"><a href="#member" onclick="toggleMenu();"> OurMember </a></li>
+            <li data-aos="fade-down" data-aos-delay="300"><a href="#contact" onclick="toggleMenu();"> Contact </a></li>
+        </ul>
+    </header>
+
+    <!-- Navigation bar end -->
+
+    <!-- Landing Page Start -->
+
+    <section class="home"  id="home">
+        <div class="content">
+            <h2 data-aos="fade-up"> Laundry K 7 </h2>
+            <p data-aos="fade-up" data-aos-delay="100">
+                "Ingin pakaian Anda tampak seperti baru lagi? Percayakan kepada kami untuk mencuci dan merawatnya dengan baik. <br />
+                Dengan harga yang terjangkau dan hasil yang memuaskan, Laundry kami siap menjadi solusi terbaik untuk kebutuhan mencuci pakaian Anda!"
+            </p>
+            <a href="shopping-cart-referensi\index.html" class="btn-1"> Menu </a>
+        </div>
+    </section>
+    <!-- Landing Page end -->
+
+    <!-- About Section Start -->
+
+    <section class="about" id="about">
+        <div class="container">
+
+            <!-- About item start -->
+
+            <div class="row">
+                <div class="col50" data-aos="fade-right">
+                    <div class="titleText">
+                        <span>A</span>bout Us
+                    </div>
+                    <p> Kami adalah tim Laundry yang berdedikasi untuk memberikan layanan mencuci terbaik untuk Anda. Dengan pengalaman dan pengetahuan yang luas, kami memastikan setiap pakaian yang kami cuci diolah dengan baik dan hasil yang memuaskan. </p>
+                </div>
+                <div class="col50">
+                    <div class="imgBx" data-aos="fade-left">
+                        <img src="../static/image/about.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col50" data-aos="fade-left">
+                    <p> Kami selalu berusaha untuk memberikan pelayanan terbaik dan menjaga kepercayaan pelanggan kami. Bergabunglah dengan kami untuk pengalaman mencuci yang luar biasa!</p>
+                </div>
+                <div class="col50" data-aos="fade-right">
+                    <div class="imgBx">
+                        <img src="../static/image/about2.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col50" data-aos="fade-right">
+                    <p> Kami mengutamakan kualitas dan kebersihan pakaian Anda dengan menggunakan deterjen dan penghilang noda berkualitas tinggi. Selain itu, kami juga memberikan perhatian khusus pada setiap jenis kain dan warna pakaian Anda, sehingga hasil cucian tidak merusak kualitas atau bentuk asli dari pakaian Anda.</p>
+                </div>
+                <div class="col50">
+                    <div class="imgBx" data-aos="fade-left">
+                        <img src="../static/image/about3.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- About item end -->
+                </div>
+     </section>
+     
+    <!-- About Section end -->
+
+
+    <!-- System Section start -->
+    <section class="system" id="system">
+
+        <div class="container">
+            <div class="title" data-aos="fade-up">
+                <h2 class="titleText">Our <span>S</span>ystem</h2>
+                <p>Kami memiliki sistem yang terintegrasi dengan teknologi terkini untuk memudahkan proses mencuci pakaian Anda. </p>
+            </div>
+
+            <div class="row">
+                <div class="timeline">
+                    <div class="row">
+
+                        <!-- Timeline item start -->
+
+
+                        <div class="timeline-item">
+                            <div class="timeline-item-inner" data-aos="fade-right">
+                                <i class="icon"></i>
+                                <span> Administration </span>
+                                <h4> Admin </h4>
+                                <p> Di balik sistem Laundry kami, terdapat tim administrasi yang handal untuk memastikan bahwa setiap pesanan dan permintaan pelanggan diproses dengan baik dan tepat waktu.  </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-item-inner" data-aos="fade-left">
+                                <i class="icon"></i>
+                                <span> Tahap Pencucian </span>
+                                <h4> Petugas Laundry </h4>
+                                <p> Pada tahap pencucian, kami memiliki para petugas laundry yang berpengalaman dan terlatih untuk mengolah cucian Anda dengan baik. Setiap Petugas Laundry kami memahami jenis kain dan noda yang berbeda, dan menggunakan teknik pencucian yang tepat untuk memastikan pakaian Anda bersih dan terawat dengan baik. </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-item-inner" data-aos="fade-right">
+                                <i class="icon"></i>
+                                <span> Tahap Pengeringan </span>
+                                <h4> Petugas Pengeringan </h4>
+                                <p> Pada tahap pengeringan, kami memiliki para petugas pengeringan yang bertanggung jawab untuk mengawasi setiap proses Pengeringan pakaian Anda dengan baik. Petugas Pengeringan kami akan memastikan setiap pakaian ditempatkan dengan benar dan diatur sesuai jenis kain dan ukuran pakaian. </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-item-inner" data-aos="fade-left">
+                                <i class="icon"></i>
+                                <span> Tahap Menyetrika </span>
+                                <h4> Petugas Setrika </h4>
+                                <p> Pada tahap setelah pengeringan, pakaian Anda akan diarahkan ke tahap penyetrikaan, yang dilakukan oleh para Petugas Setrika kami. Para Petugas Setrika kami sangat terampil dalam menyetrika dan meluruskan setiap lipatan pada pakaian Anda, serta memperhatikan setiap detail agar hasil penyetrikaan optimal dan membuat pakaian Anda terlihat rapi dan kembali seperti baru. </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-item-inner" data-aos="fade-right">
+                                <i class="icon"></i>
+                                <span> Tahap Pengemasan </span>
+                                <h4> Petugas Pengepakan </h4>
+                                <p> Pada tahap terakhir, setelah pakaian Anda melalui proses penyetrikaan, pakaian akan dikemas oleh para Petugas Pengepakan kami. Para Petugas Pengepakan kami sangat memperhatikan setiap detail dan mengemas setiap pakaian dengan rapi dan aman. </p>
+                            </div>
+                        </div>
+
+                         <!-- Timeline item end -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- System Section end -->
+
+    <!-- Service Section start -->
+
+    <section class="service" id="service">
+
+        <div class="container">
+
+            <div class="title" data-aos="fade-up">
+                <h2 class="titleText">Our <span>S</span>ervice</h2>
+                <p> Layanan Laundry Terkontrol Kualitas untuk Semua Kebutuhan Anda..</p>
+            </div>
+
+            <div class="menu">
+
+                <!-- Service menu start -->
+
+                <!-- Service menu item start -->
+
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card">
+                        <div class="boxcard">
+                            <div class="imgBx">
+                            <img src="../static/image/kaos.jpg" alt="">
+                        </div>
+                        <div class="text">
+                                <h3>T-Shirt</h3>
+                                <label for="check" class="next">
+                                    <a id="order">Order <i class="fa-solid fa-arrow-right"></i></a>
+                                </label>
+                            </div>
+                            <input type="checkbox" id="check">
+
+                            <!-- Form service start -->
+                            
+                            <div class="contentBx">
+                                <div class="content">
+                                    <h2> Details </h2>
+                                    <div class="col10">
+                                        <h1> Customer : </h1><input type="text" placeholder="Name">
+                                        <h1> Weight : </h1><input type="text" placeholder="weight">
+                                    </div>
+
+                                    <div class="col50">
+                                        <div class="select">
+                                            <select name="estimation" id="estimation">
+                                                <option selected disabled>Estimation</option>
+                                                <option value="super"> 12 Hours </option>
+                                                <option value="rare"> 1 Day </option>
+                                                <option value="common"> 2 Day </option>
+                                                <option value="broke"> 1 Month </option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col100">
+                                        <div class="select">
+                                            <select name="service" id="service-item">
+                                                <option selected disabled> Service </option>
+                                                <option value="laundry"> Laundry </option>
+                                                <option value="ironing"> Ironing </option>
+                                                <option value="doubleService"> Laundry & Ironing</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="end">
+                                        <label for="check">
+                                            <a class="back" id="back"><i class="fa-solid fa-arrow-left"> Back </i></a>
+                                        </label>
+                                        <label for="confirm">
+                                            <button class="confirm" id="confirm"> Confirm <i class="fa-solid fa-arrow-right"></i></button>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Form service end -->
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Service menu item end -->
+
+                <!-- Service menu end -->
+
+                 <!-- Service menu item start -->
+
+                 <div class="row" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card">
+                        <div class="boxcard">
+                            <div class="imgBx">
+                            <img src="../static/image/blanket.jpg" alt="">
+                        </div>
+                        <div class="text">
+                                <h3> Blanket </h3>
+                                <label for="check2" class="next">
+                                    <a id="order">Order <i class="fa-solid fa-arrow-right"></i></a>
+                                </label>
+                            </div>
+                            <input type="checkbox" id="check2">
+
+                            <!-- Form service start -->
+                            
+                            <div class="contentBx">
+                                <div class="content">
+                                    <h2> Details </h2>
+                                    <div class="col10">
+                                        <h1> Customer : </h1><input type="text" placeholder="Name">
+                                        <h1> Pcs : </h1><input type="text" placeholder="Pcs">
+                                    </div>
+
+                                    <div class="col50">
+                                        <div class="select">
+                                            <select name="estimation" id="estimation">
+                                                <option selected disabled>Estimation</option>
+                                                <option value="super"> 12 Hours </option>
+                                                <option value="rare"> 1 Day </option>
+                                                <option value="common"> 2 Day </option>
+                                                <option value="broke"> 1 Month </option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col100">
+                                        <div class="select">
+                                            <select name="service" id="service-item">
+                                                <option selected disabled> Service </option>
+                                                <option value="laundry"> Laundry </option>
+                                                <option value="ironing"> Ironing </option>
+                                                <option value="doubleService"> Laundry & Ironing</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="end">
+                                        <label for="check2">
+                                            <a class="back" id="back"><i class="fa-solid fa-arrow-left"> Back </i></a>
+                                        </label>
+                                        <label for="confirm2">
+                                            <button class="confirm" id="confirm"> Confirm <i class="fa-solid fa-arrow-right"></i></button>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Form service start -->
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Service menu item end -->
+
+                 <!-- Service menu item start -->
+
+                 <div class="row"data-aos="fade-up" data-aos-delay="300">
+                    <div class="card">
+                        <div class="boxcard">
+                            <div class="imgBx">
+                            <img src="../static/image/sepatu.jpg" alt="">
+                        </div>
+                        <div class="text">
+                                <h3>Shoes</h3>
+                                <label for="check3" class="next">
+                                    <a id="order">Order <i class="fa-solid fa-arrow-right"></i></a>
+                                </label>
+                            </div>
+                            <input type="checkbox" id="check3">
+
+                            <!-- Form service start -->
+                            
+                            <div class="contentBx">
+                                <div class="content">
+                                    <h2> Details </h2>
+                                    <div class="col10">
+                                        <h1> Customer : </h1><input type="text" placeholder="Name">
+                                        <h1> Pcs : </h1><input type="text" placeholder="weight">
+                                    </div>
+
+                                    <div class="col50">
+                                        <div class="select">
+                                            <select name="estimation" id="estimation">
+                                                <option selected disabled>Estimation</option>
+                                                <option value="super"> 12 Hours </option>
+                                                <option value="rare"> 1 Day </option>
+                                                <option value="common"> 2 Day </option>
+                                                <option value="broke"> 1 Month </option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col100">
+                                        <div class="select">
+                                            <select name="service" id="service-item">
+                                                <option selected disabled> Service </option>
+                                                <option value="laundry"> Laundry </option>
+                                                <option value="ironing"> Ironing </option>
+                                                <option value="doubleService"> Laundry & Ironing</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="end">
+                                        <label for="check3">
+                                            <a class="back" id="back"><i class="fa-solid fa-arrow-left"> Back </i></a>
+                                        </label>
+                                        <label for="confirm3">
+                                            <button class="confirm" id="confirm"> Confirm <i class="fa-solid fa-arrow-right"></i></button>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Form service start -->
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service menu item end -->
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Service Section end -->
+
+
+    <!-- OurMember Section start -->
+
+    <section class="testimonials" id="member">
+
+    <div class="title" data-aos="fade-up">
+        <h2 class="titleText"> <span>A</span>nggota <span>K</span>elompok</h2>
+        <p> KELOMPOK 7 </p>
+    </div>
+
+    <div class="content">
+
+        <!-- Testi item start -->
+
+        <div class="box" data-aos="fade-up" data-aos-delay="100">
+            <div class="imgBx">
+                <img src="../static/image/michael.jpeg" alt="">
+            </div>
+            <div class="text">
+                <p> Nim : 210211060018</p>
+                <h3> MICHAEL N. DAMO </h3>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="200">
+            <div class="imgBx">
+                <img src="../static/image/pascal.jpg" alt="">
+            </div>
+            <div class="text">
+                <p> Nim : 210211060244</p>
+                <h3> PASCAL Z. MALIANGKAY </h3>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="300">
+            <div class="imgBx">
+                <img src="../static/image/reswara.jpeg" alt="">
+            </div>
+            <div class="text">
+                <p> Nim : 210211060106 </p>
+                <h3> RESWARA A. MUNDA </h3>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="400">
+            <div class="imgBx">
+                <img src="../static/image/rizka.jpeg" alt="">
+            </div>
+            <div class="text">
+                <p> Nim : 210211060306 </p>
+                <h3> RIZKA M. C. MOKODOMPIT </h3>
+            </div>
+        </div>
+
+        <!-- Testi item end -->
+    </div>
+
+</section>
+    <!-- OurMember Section end -->
+
+    <!-- Contact Section start -->
+
+    <section class="contact" id="contact">
+
+        <div class="container"> 
+
+            <div class="title" data-aos="fade-up">
+                <h2 class="titleText"><span>C</span>ontact <span>U</span>s</h2>
+                <p> Hubungi Kami untuk Kebutuhan Laundry Anda. </p>
+            </div>
+
+            <div class="box">
+
+                <div class="contactForm" data-aos="fade-right">
+
+                    <h3> Send Message </h3>
+                    <div class="inputBox" data-aos="fade-right" data-aos-delay="20">
+                        <input type="text" placeholder="Name">
+                    </div>
+                    <div class="inputBox" data-aos="fade-right" data-aos-delay="40">
+                        <input type="text" placeholder="Email">
+                    </div>
+                    <div class="inputBox" data-aos="fade-right" data-aos-delay="60">
+                        <textarea placeholder="Message"></textarea>
+                    </div>
+                    <div class="inputBox" data-aos="fade-right" data-aos-delay="80">
+                        <input type="submit" class="btn" value="send">
+                    </div>
+
+                </div>
+
+                <div class="map" data-aos="fade-left">
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.5309498655915!2d124.82454387373608!3d1.4555412612295793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3287748d30cfd679%3A0x2f0ca179d0b91656!2sUniversitas%20Sam%20Ratulangi!5e0!3m2!1sid!2sid!4v1682843526200!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    
+                </div>
+
+                <div class="icon-container" data-aos="fade-up" >
+                   
+                   <div class="icons" data-aos="fade-up" data-aos-delay="100">
+                        <span>addres :</span>
+                        <p> Manado, Sulawesi Utara</p>
+                   </div>
+                   <div class="icons" data-aos="fade-up" data-aos-delay="200">
+                        <span> email :</span>
+                        <p> pascalmaliangkay026@student.unsrat.ac.id </p>
+                   </div>
+                   <div class="icons" data-aos="fade-up" data-aos-delay="300">
+                        <span>Phone :</span>
+                        <p> 0895806286322 </p>
+                   </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Contact Section end -->
+
+
+    <!-- Copyright -->
+    <div class="cp">
+        <p>TIK2032C <a href="#"> Kelompok 7</a>. All Right Reserved </p>
+    </div>
+    <!-- JS Link -->
+    <script src="../static/js/script.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        AOS.init({
+            duration: 600,
+        })
+    </script>
+
+</body>
+</html>
